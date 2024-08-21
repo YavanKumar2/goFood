@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/createuser",
+      "dest": "/Routes/CreateUser.js"
+    },
+    {
+      "src": "/api/loginuser",
+      "dest": "/Routes/CreateUser.js"
+    },
+    {
+      "src": "/api/foodData",
+      "dest": "/Routes/DisplayData.js"
+    },
+    {
+      "src": "/api/OrderData",
+      "dest": "/Routes/OrderData.js"
+    },
+    {
+      "src": "/api/myorderData",
+      "dest": "/Routes/OrderData.js"
+    }
+  ]
+  
+}
