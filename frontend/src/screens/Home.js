@@ -58,7 +58,7 @@ const Home = () => {
             </div>
             <div className="carousel-item active">
               <img
-                src="https://source.unsplash.com/random/900x700/?burger"
+                src="/burger.jpg"
                 className="d-block w-100"
                 style={{ filter: "brightness(30%)" }}
                 alt="..."
@@ -66,7 +66,7 @@ const Home = () => {
             </div>
             <div className="carousel-item">
               <img
-                src="https://source.unsplash.com/random/900x700/?pizza"
+                src="/pizza.jpeg"
                 className="d-block w-100"
                 style={{ filter: "brightness(30%)" }}
                 alt="..."
@@ -74,7 +74,7 @@ const Home = () => {
             </div>
             <div className="carousel-item">
               <img
-                src="https://source.unsplash.com/random/900x700/?fries"
+                src="/fries.jpeg"
                 className="d-block w-100"
                 style={{ filter: "brightness(30%)" }}
                 alt="..."
@@ -150,3 +150,5 @@ const Home = () => {
 };
 
 export default Home;
+
+
